@@ -1,11 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap');
 
-body {
-  font-family: 'IBM Plex Sans Arabic', sans-serif !important;
+/* Apply font globally to Medallia survey */
+body,
+.nebula-form,
+.nebula-form * {
+  font-family: "IBM Plex Sans Arabic", sans-serif !important;
 }
 
-/* Example */
+/* Font weight utility classes (as requested by client) */
+.ibm-plex-sans-arabic-thin {
+  font-weight: 100;
+  font-style: normal;
+}
+
+.ibm-plex-sans-arabic-extralight {
+  font-weight: 200;
+  font-style: normal;
+}
+
+.ibm-plex-sans-arabic-light {
+  font-weight: 300;
+  font-style: normal;
+}
+
 .ibm-plex-sans-arabic-regular {
-  font-family: 'IBM Plex Sans Arabic', sans-serif;
   font-weight: 400;
+  font-style: normal;
+}
+
+.ibm-plex-sans-arabic-medium {
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ibm-plex-sans-arabic-semibold {
+  font-weight: 600;
+  font-style: normal;
+}
+
+.ibm-plex-sans-arabic-bold {
+  font-weight: 700;
+  font-style: normal;
 }
